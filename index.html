@@ -171,7 +171,124 @@
 </section>
 
     <!-- ======================= PROJECTS ======================= -->
-    <section id="projects" class="py-10 border-t border-slate-200">
+    <!-- ======================= PROJECTS ======================= -->
+<section id="projects" class="py-12 border-t border-slate-200">
+  <h2 class="text-2xl font-semibold tracking-tight">Projects</h2>
+  <p class="mt-2 text-sm text-slate-600">Selected work, reports, and documentation.</p>
+
+  <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- ===== MSc Dissertation ===== -->
+    <article class="rounded-2xl border border-slate-200 overflow-hidden bg-white">
+      <img
+        src="assets/images/dissertation_thumb.jpg"
+        alt="Thumbnail for MSc Dissertation"
+        class="h-40 w-full object-cover">
+      <div class="p-5">
+        <h3 class="text-lg font-semibold">MSc Dissertation</h3>
+        <p class="mt-1 text-sm text-slate-600">
+          Brief description of your dissertation’s topic and impact (1–2 lines).
+        </p>
+        <ul class="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">
+          <li class="rounded-full bg-slate-100 px-2 py-1">Data Analytics</li>
+          <li class="rounded-full bg-slate-100 px-2 py-1">Python</li>
+          <li class="rounded-full bg-slate-100 px-2 py-1">Visualization</li>
+        </ul>
+
+        <div class="mt-4 flex flex-wrap gap-3">
+          <!-- View report (Google Drive PDF) -->
+          <a
+            href="https://drive.google.com/uc?export=view&id=FILE_ID_DISSERTATION_PDF"
+            target="_blank" rel="noopener"
+            class="btn">View Report</a>
+
+          <!-- Download report -->
+          <a
+            href="https://drive.google.com/uc?export=download&id=FILE_ID_DISSERTATION_PDF"
+            class="btn-outline">Download PDF</a>
+
+          <!-- Key Summary (Google Doc or PDF) -->
+          <a
+            href="https://docs.google.com/document/d/FILE_ID_DISSERTATION_SUMMARY/preview"
+            target="_blank" rel="noopener"
+            class="btn-outline">Key Summary</a>
+          <!-- If your summary is a PDF instead, use:
+          https://drive.google.com/uc?export=view&id=FILE_ID_DISSERTATION_SUMMARY_PDF
+          -->
+        </div>
+
+        <!-- Optional inline preview of the report -->
+        <details class="mt-4 group">
+          <summary class="cursor-pointer text-sm text-slate-700 hover:underline">
+            Quick Preview (inline)
+          </summary>
+          <div class="mt-3 rounded-xl border border-slate-200 overflow-hidden">
+            <iframe
+              src="https://drive.google.com/file/d/FILE_ID_DISSERTATION_PDF/preview"
+              width="100%" height="420" allow="autoplay"></iframe>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <!-- ===== GE Aerospace — Forage ===== -->
+    <article class="rounded-2xl border border-slate-200 overflow-hidden bg-white">
+      <img
+        src="assets/images/ge_forage_thumb.jpg"
+        alt="Thumbnail for GE Aerospace Forage project"
+        class="h-40 w-full object-cover">
+      <div class="p-5">
+        <h3 class="text-lg font-semibold">GE Aerospace — Virtual Experience (Forage)</h3>
+        <p class="mt-1 text-sm text-slate-600">
+          Short case study: what you built/analyzed, methods used, and measurable outcome.
+        </p>
+        <ul class="mt-3 flex flex-wrap gap-2 text-xs text-slate-600">
+          <li class="rounded-full bg-slate-100 px-2 py-1">Process Mapping</li>
+          <li class="rounded-full bg-slate-100 px-2 py-1">Root Cause (Fishbone)</li>
+          <li class="rounded-full bg-slate-100 px-2 py-1">Documentation</li>
+        </ul>
+
+        <div class="mt-4 flex flex-wrap gap-3">
+          <!-- Documentation (Google Doc or PDF) -->
+          <a
+            href="https://docs.google.com/document/d/FILE_ID_GE_DOC/preview"
+            target="_blank" rel="noopener"
+            class="btn">Read Documentation</a>
+          <!-- If PDF:
+          https://drive.google.com/uc?export=view&id=FILE_ID_GE_DOC_PDF
+          -->
+
+          <!-- Tasks/Artifacts bundle (Drive folder or PDF) -->
+          <a
+            href="https://drive.google.com/drive/folders/FILE_ID_GE_FOLDER?usp=sharing"
+            target="_blank" rel="noopener"
+            class="btn-outline">View Tasks</a>
+        </div>
+
+        <!-- Optional inline preview of documentation -->
+        <details class="mt-4 group">
+          <summary class="cursor-pointer text-sm text-slate-700 hover:underline">
+            Quick Preview (inline)
+          </summary>
+          <div class="mt-3 rounded-xl border border-slate-200 overflow-hidden">
+            <iframe
+              src="https://docs.google.com/document/d/FILE_ID_GE_DOC/preview"
+              width="100%" height="420"></iframe>
+          </div>
+        </details>
+      </div>
+    </article>
+
+    <!-- You can keep your existing cards here... -->
+  </div>
+
+  <p class="mt-4 text-xs text-slate-500">
+    Google Drive tips: set sharing to <strong>Anyone with the link → Viewer</strong>.
+    Use <code>uc?export=view|download&amp;id=FILE_ID</code> for PDFs or
+    <code>/document/d/FILE_ID/preview</code> for Google Docs preview.
+  </p>
+</section>
+ <!-- You can keep your existing cards here... -->
+<section id="projects" class="py-10 border-t border-slate-200">
       <div class="flex items-baseline justify-between gap-4">
         <h2 class="text-2xl font-semibold tracking-tight">Projects</h2>
         <div class="flex items-center gap-2 text-xs">
